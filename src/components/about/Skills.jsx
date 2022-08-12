@@ -1,7 +1,6 @@
 import React from "react";
-import heroImg from "../../assets/img/hero/dark.jpg";
-import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
-import {Tab} from "react-tabs";
+// import heroImg from "../../assets/img/hero/dark.jpg";
+// import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 
 const skillsContent = [
   { icon: "fa-docker", skillName: "Docker", skillDesc: "Build, Ship, Run." },
@@ -11,15 +10,6 @@ const skillsContent = [
   { icon: "fa-react", skillName: "React", skillDesc: "Front-End." },
   { icon: "fa-laravel", skillName: "Laravel", skillDesc: "Artisan." },
 ];
-
-const heroContent = {
-  heroImage: heroImg,
-  heroMobileImage: heroImgMobile,
-  heroTitleName: "ENOLA",
-  heroDesignation: "membangunkanmu dari mimpimu",
-  heroDescriptions: ``,
-  heroBtn: "React",
-};
 
 const Skills = () => {
   return (
@@ -40,7 +30,7 @@ const Skills = () => {
         //   </h6>
         // </div>
 
-        <div className="col-6 col-md-3" key={i}>
+        <div className="col-12 col-md-3" key={i}>
           <div className="box-brands with-margin d-flex justify-content-start gap-3">
             <i className={`fa fa-brands fa-4x ${val.icon}`}></i>
             <div>
