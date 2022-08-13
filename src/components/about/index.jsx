@@ -1,10 +1,10 @@
 import React from "react";
 import Achievements from "./Achievements";
-// import Education from "./Education";
-// import Experience from "./Experience";
-// import PersonalInfo from "./PersonalInfo";
+import Education from "./Education";
+import Experience from "./Experience";
+import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-// import cv from "../../assets/img/cv.webp";
+import cv from "../../assets/img/cv.webp";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 
 const index = () => {
@@ -13,15 +13,15 @@ const index = () => {
       <div className="container">
 
         <div className="row">
-          {/* Personal Info Starts */}
+        {/*  /!* Personal Info Starts *!/*/}
           <div className="col-xl-6 col-lg-5 col-12">
             <div className="row">
-              {/*<div className="col-12">*/}
-              {/*  <h3 className="text-uppercase custom-title mb-0 ft-wt-600">*/}
-              {/*    siapa kami*/}
-              {/*  </h3>*/}
-              {/*</div>*/}
-              {/* End .col */}
+        {/*      <div className="col-12">*/}
+        {/*        <h3 className="text-uppercase custom-title mb-0 ft-wt-600">*/}
+        {/*          siapa kami*/}
+        {/*        </h3>*/}
+        {/*      </div>*/}
+        {/*      /!* End .col *!/*/}
 
               <div className="col-12 d-block d-sm-none">
                 <img
@@ -43,7 +43,7 @@ const index = () => {
               {/*<div className="col-12">*/}
               {/*  <PersonalInfo />*/}
               {/*</div>*/}
-              {/*/!* End personal info *!/*/}
+              {/* End personal info */}
 
               {/*<div className="col-12 mt-1">*/}
               {/*  <a className="button" href={cv} download>*/}
@@ -66,7 +66,7 @@ const index = () => {
 
         {/*<hr className="separator mt-1" />*/}
 
-        {/* Experience & Education Starts */}
+        {/*/!* Experience & Education Starts *!/*/}
         {/*<div className="row">*/}
         {/*  <div className="col-12">*/}
         {/*    <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">*/}
@@ -78,25 +78,25 @@ const index = () => {
         {/*      <Experience />*/}
         {/*    </div>*/}
         {/*  </div>*/}
-          {/*<div className="col-lg-6 m-15px-tb">*/}
-          {/*  <div className="resume-box">*/}
-          {/*    <Education />*/}
-          {/*  </div>*/}
-          {/*</div>*/}
+        {/*  <div className="col-lg-6 m-15px-tb">*/}
+        {/*    <div className="resume-box">*/}
+        {/*      <Education />*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
         {/*</div>*/}
-        {/*  Experience & Education Ends */}
+        {/*/!*  Experience & Education Ends *!/*/}
 
-        <hr className="separator" />
+        {/*<hr className="separator" />*/}
 
         {/* Skills Starts */}
-        <div className="row ">
-          <div className="col-12">
-            <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
-              sihir yang kami gunakan
-            </h3>
-          </div>
-          <Skills />
-        </div>
+        {/*<div className="row ">*/}
+        {/*  <div className="col-12">*/}
+        {/*    <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">*/}
+        {/*      sihir yang kami gunakan*/}
+        {/*    </h3>*/}
+        {/*  </div>*/}
+        {/*  <Skills />*/}
+        {/*</div>*/}
         {/* Skills Ends */}
 
       </div>
